@@ -1,0 +1,59 @@
+<!-- Practice Exercise 3 -->
+<!-- Challenge: "My Favorite Quote". -->
+<!-- Objective: Use classes to style text.   -->
+
+<!-- Instructions: -->
+<!-- - Create a `<div>` with a class of `"quote-box"`.   -->
+<!-- - Inside, add a `<p>` with a quote and another `<p>` for the author.   -->
+<!-- - Style the quote to be italic, larger, and center-aligned.   -->
+<!-- - Style the author’s name to be smaller and right-aligned.   -->
+<!-- - Give the whole box a light background color.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Quote</title>
+    <style>
+        .body-style {
+            background-color: darksalmon;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .quote-box {
+            background-color: bisque;
+            font-style: italic;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: antiquewhite;
+        }
+
+        .quote-text {
+            text-align: center;
+            font-style: italic;
+            font-size: larger;
+            margin-bottom: 15px;
+        }
+
+        .quote-author {
+            text-align: right;
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body class="body-style">
+    <div class="quote-box">
+        <p class="quote-text">"Be the change that you wish to see in the world".</p>
+        <p class="quote-author">-Mahatma Gandhi</p>
+
+    </div>
+</body>
+</html>

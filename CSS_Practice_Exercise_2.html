@@ -1,0 +1,66 @@
+<!-- Task: Create a styled "About Me" card using CSS selectors and typography properties. -->
+
+<!-- Requirements: -->
+<!-- - Use different heading levels with custom fonts -->
+<!-- - Apply colors using different CSS color methods -->
+<!-- - Use classes for reusable styles -->
+<!-- - Include proper spacing with padding and margin -->
+<!-- - Make it visually appealing with borders and backgrounds -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .body-style {
+      background-color: #f9f9f9;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      width: 320px;
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 26px;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #555555;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+
+    .highlight_2 {
+        color: #e67e22;
+        font-weight: bold;
+    }
+  </style>
+</head>
+<body class="body-style">
+
+  <div class="card">
+    <h1 class="card-title">About Me</h1>
+    <p class="card-text">
+      I'm a <span class="highlight">web developer</span> and a <span class="highlight_2">passionate programmer.</span>  
+      <p><b>I enjoy  writing codes, creative thinking, solving problems, connecting with people, and expressing myself through design and storytelling.</b></p>
+    </p>
+  </div>
+
+</body>
+</html>
