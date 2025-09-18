@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Sticky Header */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2c3e50;
+  padding: 15px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  text-align: center;
+  gap: 100px;
+  justify-content: center;
+}
+
+/* Navigation Menu */
+.navbar {
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 0 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  text-align: center;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  color: #1abc9c;
+}
+
+/* Main Content */
+.content {
+  padding: 100px 20px 40px; /* Top padding to avoid overlap with fixed header */
+  max-width: 800px;
+  margin: auto;
+}
+
+

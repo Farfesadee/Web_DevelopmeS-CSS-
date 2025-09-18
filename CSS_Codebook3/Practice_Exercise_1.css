@@ -1,0 +1,157 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #34495e;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #1abc9c;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #1abc9c;
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "featured sidebar"
+    "ad sidebar";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.featured {
+  grid-area: featured;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.small-article {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.tall {
+  grid-row: span 2;
+  background-color: #dff9fb;
+}
+
+.ad-banner {
+  grid-area: ad;
+  background-color: #f6e58d;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Cards Section */
+.cards-section {
+  padding: 2rem;
+}
+
+.cards-section h2 {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "featured"
+      "sidebar"
+      "ad";
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    grid-template-rows: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
