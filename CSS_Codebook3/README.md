@@ -18,7 +18,7 @@ Bonus Challenges:
 - Add a navigation bar in the header
 - Use auto-fit for responsive article cards in a section
 
-![Image](https://github.com/user-attachments/assets/64a2dc54-afe0-47df-88c6-99d93cad37bb)
+![Image](https://github.com/user-attachments/assets/8e754785-d24b-490b-806c-9eff5dbb2054)
 
 
 ## Practice_Exercise 2
