@@ -60,4 +60,4 @@ Bonus Challenges:
 - Experiment with different font combinations
 - Create visual hierarchy with font sizes
 
-![Image](https://github.com/user-attachments/assets/a3a92e18-4af8-4358-bb36-c1fba6fdf870)
+![Image](https://github.com/user-attachments/assets/62226d2d-b1af-4ba6-998f-86c6ff7cdeb2)
