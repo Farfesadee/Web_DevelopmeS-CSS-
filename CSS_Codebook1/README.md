@@ -2,7 +2,7 @@
 
 ## Practice_Exercise_1
 
-1. Write your full name inside an "<h1>" tag and use internal CSS to change its color to yellow.  
+1. Write your full name inside an h1 tag and use internal CSS to change its color to yellow.  
 2. Write three list items inside an unordered list and use internal CSS to make the list text purple and italic.  
 3. Add a heading that says "My Favorite Color" and style it with your favorite color.
 
@@ -31,8 +31,8 @@ Challenge: "My Favorite Quote".
 Objective: Use classes to style text.  
 
 Instructions:
-- Create a "<div>" with a class of "quote-box".  
-- Inside, add a "<p>" with a quote and another "<p>" for the author.  
+- Create a div tag with a class of "quote-box".  
+- Inside, add a p tag with a quote and another p tag for the author.  
 - Style the quote to be italic, larger, and center-aligned.  
 - Style the author’s name to be smaller and right-aligned.  
 - Give the whole box a light background co
